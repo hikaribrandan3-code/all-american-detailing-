@@ -83,7 +83,7 @@ const Index = () => {
       service: "Window Tint",
     },
     {
-      image: "/images/assets/ppf_application_background_1776191964267.png",
+      image: "/images/assets/ppf_application_background.png",
       name: "PPF (Clear Bra)",
       price: "Call for Quote",
       desc: "Self-healing film for rock chips, road rash, and paint damage. Front-end or full car.",
@@ -191,7 +191,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="bg-[#F5F0E8] text-[#0B1F3A]">
+    <div className="bg-[#F5F3EE] text-[#0B1F3A]">
       <SEO
         title="All American Detailing | Professional Mobile Auto Detailing"
         description="Built on Pride. Polished to Perfection. Professional mobile detailing, ceramic coatings, PPF, and window tint. We come to you — free quotes."
@@ -207,11 +207,8 @@ const Index = () => {
             className="w-full h-full object-cover"
             style={{ filter: "brightness(0.25)" }}
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0B1F3A]/70 via-[#0B1F3A]/40 to-[#F5F0E8]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0B1F3A]/70 via-[#0B1F3A]/40 to-[#F5F3EE]" />
         </div>
-
-        {/* Americana stripe overlay top */}
-        <div className="absolute top-0 left-0 right-0 americana-stripe z-10 opacity-80" />
 
         <div className="relative z-10 container mx-auto px-6 lg:px-8 flex flex-col items-start max-w-5xl">
           <p className="section-label mb-4 text-white/80">Fully Mobile · Licensed &amp; Insured</p>
@@ -293,7 +290,7 @@ const Index = () => {
       </div>
 
       {/* ─── SERVICES ─── */}
-      <section id="services-grid" className="py-16 lg:py-24 px-6 bg-[#F5F0E8]">
+      <section id="services-grid" className="py-16 lg:py-24 px-6 bg-[#F5F3EE]">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <p className="section-label mb-3">What We Offer</p>
@@ -404,7 +401,7 @@ const Index = () => {
       </section>
 
       {/* ─── PACKAGES ─── */}
-      <section className="py-16 lg:py-24 px-6 bg-[#F5F0E8]">
+      <section className="py-16 lg:py-24 px-6 bg-[#F5F3EE]">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12 text-center">
             <p className="section-label mb-3">Simple Pricing</p>
@@ -500,7 +497,7 @@ const Index = () => {
       </section>
 
       {/* ─── TESTIMONIALS ─── */}
-      <section className="py-16 lg:py-24 px-6 bg-[#F5F0E8]">
+      <section className="py-16 lg:py-24 px-6 bg-[#F5F3EE]">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12 text-center">
             <p className="section-label mb-3">Real Customers</p>
@@ -563,7 +560,7 @@ const Index = () => {
       </section>
 
       {/* ─── SERVICE AREA ─── */}
-      <section className="py-10 px-6 bg-[#F5F0E8] border-b border-[#0B1F3A]/10">
+      <section className="py-10 px-6 bg-[#F5F3EE] border-b border-[#0B1F3A]/10">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-6 justify-between">
           <div className="flex items-center gap-4">
             <MapPin size={24} className="text-[#C8192A] shrink-0" />

@@ -7,7 +7,7 @@
 @layer base {
   :root {
     /* Americana Light Theme */
-    --background: 36 33% 93%;        /* #F5F0E8 off-white cream */
+    --background: 45 35% 95%;        /* #F5F3EE high-end paper white */
     --foreground: 216 63% 14%;       /* #0B1F3A navy */
 
     --card: 0 0% 100%;
@@ -49,7 +49,7 @@
     /* Raw color tokens */
     --navy: #0B1F3A;
     --red: #C8192A;
-    --cream: #F5F0E8;
+    --cream: #F5F3EE;
     --star: #D4A833;
   }
 }
@@ -64,7 +64,7 @@
   }
 
   body {
-    background-color: #F5F0E8;
+    background-color: #F5F3EE;
     color: #0B1F3A;
     font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -125,7 +125,7 @@
     justify-content: center;
   }
   .btn-red:hover {
-    background-color: #a8141e;
+    background-color: #9E1020;
   }
 
   .btn-navy {
